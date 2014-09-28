@@ -1,14 +1,15 @@
-package com.daybreak.server.network;
+package com.foo.server;
 
-import static com.daybreak.server.network.Settings.Network.Server.DEFAULT_BACKUP_PORT;
-import static com.daybreak.server.network.Settings.Network.Server.DEFAULT_PORT;
+import static com.foo.server.Settings.Network.Server.DEFAULT_BACKUP_PORT;
+import static com.foo.server.Settings.Network.Server.DEFAULT_PORT;
 
 import java.io.IOException;
 import java.sql.SQLException;
 
-import com.daybreak.server.network.management.ServerEngine;
-import com.paramvirphagura.network.SocketServer;
-import com.paramvirphagura.network.SocketThread;
+import com.foo.server.management.ServerEngine;
+import com.foo.server.network.SocketServer;
+import com.foo.server.network.SocketThread;
+import com.foo.server.utilities.LogStream;
 
 /**
  * 
@@ -52,6 +53,7 @@ public final class Main {
 	 */
 	public static void startServer(int port, int backupPort)
 			throws IOException, SQLException {
+		System.setOut(new LogStream(System.out));
 		System.out.println("Initializing server.....");
 		SocketServer socketServer;
 		try {

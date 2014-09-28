@@ -1,12 +1,12 @@
-package com.daybreak.server.network.management.packet;
+package com.foo.server.management.packet;
 
-import static com.paramvirphagura.network.packet.opcode.Opcode.DISCONNECT;
-import static com.paramvirphagura.network.packet.opcode.Opcode.KEEP_ALIVE;
+import static com.foo.server.network.packet.opcode.Opcode.DISCONNECT;
+import static com.foo.server.network.packet.opcode.Opcode.KEEP_ALIVE;
 
 import java.io.IOException;
 
-import com.paramvirphagura.network.Session;
-import com.paramvirphagura.network.packet.PacketListener;
+import com.foo.server.network.Session;
+import com.foo.server.network.packet.PacketListener;
 
 public abstract class PacketManager implements PacketListener {
 

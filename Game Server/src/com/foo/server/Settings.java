@@ -1,4 +1,4 @@
-package com.daybreak.server.network;
+package com.foo.server;
 
 public final class Settings {
 
@@ -12,7 +12,7 @@ public final class Settings {
 
 		public static class Server {
 
-			public static final int DEFAULT_PORT = 1000,
+			public static final int DEFAULT_PORT = 15830,
 					DEFAULT_BACKUP_PORT = -1;
 
 		}

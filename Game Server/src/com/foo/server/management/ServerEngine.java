@@ -1,24 +1,24 @@
-package com.daybreak.server.network.management;
+package com.foo.server.management;
 
-import static com.daybreak.server.network.Settings.Database.User.USER_DATABASE_ADDRESS;
-import static com.daybreak.server.network.Settings.Database.User.USER_DATABASE_PASSWORD;
-import static com.daybreak.server.network.Settings.Database.User.USER_DATABASE_USERNAME;
-import static com.daybreak.server.network.Settings.Socket.User.MAXIMUM_AMOUNT_OF_SESSIONS;
+import static com.foo.server.Settings.Database.User.USER_DATABASE_ADDRESS;
+import static com.foo.server.Settings.Database.User.USER_DATABASE_PASSWORD;
+import static com.foo.server.Settings.Database.User.USER_DATABASE_USERNAME;
+import static com.foo.server.Settings.Socket.User.MAXIMUM_AMOUNT_OF_SESSIONS;
 
 import java.io.IOException;
 import java.net.Socket;
 import java.sql.SQLException;
 
-import com.daybreak.server.network.management.packet.AccessPacketManager;
-import com.paramvirphagura.network.Database;
-import com.paramvirphagura.network.Disconnectable;
-import com.paramvirphagura.network.Session;
-import com.paramvirphagura.network.SocketListener;
-import com.paramvirphagura.network.SocketThread;
-import com.paramvirphagura.network.access.AccessListener;
-import com.paramvirphagura.network.access.AccessSession;
-import com.paramvirphagura.network.access.LoginEvent;
-import com.paramvirphagura.network.access.RegisterEvent;
+import com.foo.server.management.packet.AccessPacketManager;
+import com.foo.server.network.Database;
+import com.foo.server.network.Disconnectable;
+import com.foo.server.network.Session;
+import com.foo.server.network.SocketListener;
+import com.foo.server.network.SocketThread;
+import com.foo.server.network.access.AccessListener;
+import com.foo.server.network.access.AccessSession;
+import com.foo.server.network.access.LoginEvent;
+import com.foo.server.network.access.RegisterEvent;
 
 public class ServerEngine implements SocketListener, Disconnectable,
 		AccessListener {

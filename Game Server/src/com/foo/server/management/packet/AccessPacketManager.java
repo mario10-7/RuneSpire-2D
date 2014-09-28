@@ -1,13 +1,13 @@
-package com.daybreak.server.network.management.packet;
+package com.foo.server.management.packet;
 
-import static com.paramvirphagura.network.packet.opcode.AccessOpcode.REGISTER;
+import static com.foo.server.network.packet.opcode.AccessOpcode.REGISTER;
 
-import com.paramvirphagura.network.Session;
-import com.paramvirphagura.network.access.AccessListener;
-import com.paramvirphagura.network.access.AccessPacketListener;
-import com.paramvirphagura.network.access.AccessSession;
-import com.paramvirphagura.network.access.LoginEvent;
-import com.paramvirphagura.network.packet.Packet;
+import com.foo.server.network.Session;
+import com.foo.server.network.access.AccessListener;
+import com.foo.server.network.access.AccessPacketListener;
+import com.foo.server.network.access.AccessSession;
+import com.foo.server.network.access.LoginEvent;
+import com.foo.server.network.packet.Packet;
 
 public class AccessPacketManager extends PacketManager implements
 		AccessPacketListener {
