@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="78" height="42" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="cobble" tilewidth="32" tileheight="32">
+  <image source="cobble.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="258" name="treecomp" tilewidth="32" tileheight="32">
+  <image source="treecomp.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="514" name="rockcaveindrah" tilewidth="32" tileheight="32">
+  <image source="rockcaveindrah.png" trans="ff00ff" width="224" height="192"/>
+  <tile id="14">
+   <properties>
+    <property name="item" value="10"/>
+    <property name="name" value="Iron Vein"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="556" name="TreeTest" tilewidth="32" tileheight="32">
+  <image source="tree.png" trans="ff00ff" width="32" height="64"/>
+  <tile id="1">
+   <properties>
+    <property name="item" value="11"/>
+    <property name="name" value="Oak Tree"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="558" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="512" height="160"/>
+ </tileset>
+ <tileset firstgid="638" name="tilesetmain" tilewidth="32" tileheight="32">
+  <image source="tilesetmain.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Background" width="78" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztmb1OwzAQgKNkBFYEc6HqVImhERIIiREEAxILqGwFCQZg4B14gj4CGz8TrEw8Qh+hE/AEgMQZ+RS7jdKLaeWLc8Mnq7Evyn06O6ndjqKoTWArsSHFEO8dMi7elhg8t29cva0CTf17jUEeIXi7jf3nxcnbIM54Bz6Az9i+PqiBs/94+wK+gR/xVujt3vCh5ukcjJ0HFoDtgrGh4rK+taJsfVPtAYM8quDNfC+odrTe6oCrt47hTuqNFoPzFJHvN1oMzlNE5iktRtUbzlN5L7jXm3ije8N664i3Qm97wL7mAmhEWb2dAz3gFDjT+M6Li7dGDlhzeX2+8+LirQucaI61m1S7O9L9XWOc77y4eDPB9yl6k/VNvIk38cYRF2/C7Lz1A9/7pXrrl3Cgxt6JNyeewdmLePvjFTw8Ec6zFG9SbxaPhPOsOpxtuczTYWyfZw3j8X6zDRHXfaQVjfpfv8wgjyp5w30k8VbOG7pT+287ntitqLdF4EG3k2jOiCp5y3MyyVtqgDmnU6Aq3lqOdTENR1y8HSY2lJh1YKMkmyWvl7mvD2+9xMbHM3DiEhxcEbgZgRITKtfJ+LolCIIQCr99hrDY
+  </data>
+ </layer>
+ <layer name="Collision" width="78" height="42" opacity="0.01">
+  <data encoding="base64" compression="zlib">
+   eJzt2EEKgCAURdHc/6YbFqZhrxqU50DwBxl4QYqW5b7y0DWbdP+66ZZwTjOlmpNWuuk2SrdMun/d2vNb6/5Ct4xuGd0yumV63yG9e8tubj1jFmffb/V9um2c04xumd7+W+d0ZN0svBcyV/6n1d38fzvOI+t02+b0mk26f910S+iW0S1z512gm25X6QYAAAB8yQo0IAEX
+  </data>
+ </layer>
+ <layer name="Foreground" width="78" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztmTlOxDAUhpMgjsAcIS2n5AaT4QIgSsQ+0CCWEUvHErE0NCBKKnre09iK58XOyIlNIvt90i/HiVP4k+3YSpK4ZSOzS9/kaXU9Shfvy7qpdEmRzTMxpMgW2wwB6SFP63W8zsnz3LG3knhZlqF4ox7UsUaf+Rhr6G3bwoVNW9/QOWjy5XKsjZV5WIpIpnB9CjnTOCqV9zZ7dqibg6pL0zrYBZ23qfBwC+Ud5H7g3hDqw+TS1ZgbN/T/FepvkHeNl6b3+sA01kxtutK2/0PzhtB1jH5jXRKCt2Xrvm4/15UQvDXtc2mb/1jffLznA7q/lfVRWj9HuCIEb7q9L6L65HlaZ2RYv3RnB56nFbnmHOr7rBWCN50L32etELzR7ymNbOOSELwh6jyVUb+riMv9byjeKNSdvOeKUL1JXM9PSejefMHe2sHe2qH23/b/QuzeCo03k8cJKctIvW1l838shShtg952IvR2CH0+ghxDdi1yrrx3EqG3a+jzLKv+yWA+IL+QPcg+5EDUKTNx7yYyb+srSfJMnGF+IKvw7ALKS8iVqFPkP8OXyLwhn9DnL03WwNMDlI+QJ1HXtcN8R+iNYRiGYRiGYRiGYZh++APXuNUG
+  </data>
+ </layer>
+ <layer name="foreground2" width="78" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztmTlOxDAUhrNMDQ1KxdJNBUeghoYaGkqYBkqggQ6GC7BcgKWhZLnAIC4AouUIg0SN+C0lisc4IfE4ec+MP+lXFssjv3+eneQ5CMbnKgqCa+gGuo2a72eDJBw9UnCPmB+gR+ipRvym/WzQDfMjlXcDxPwMvUEvNeI37WeThNC31zR2ofd07lWR2o8CkW9dwrmacVkj/jMir1TknKPKPRd9k3OOMvfuolxF99U2anR5RvmsdQXdc5XDuseNb02+e5/M8XPzb3zO2aMo39rMw+W4/JojRfnWxvfYCvxZhdYUn8R11saVMm+ansPr8GUD2lT8EddZG1eqeNN03rk4T6t40nTe6eYpdyjrShm6ecqdJMy9a7vGVLb2c38uyN/38ve+XC+x5eUx3h9PoD50GpWv/XKb2m9cOvjdKWi6gf9F9dMGoh50Dl1E9etIJv10hPAqguahhTi/5oy8v9KvKZv7Mp149HyGuW8u7stwwOV9GUpM91fkfpPo28BCzJPom+ADcX8ZxG7a778wlGL/LPFBbRtOsGceu/RafH8qqrVwrMHsYEy7TMYlai2z0Fw6nuycYw3mEGM6itvNqyJErWURWkrHkp1zrMH0JM84eOcyW/BvGzrwPmopWm/3cH8/bfPe/YbjeusCHNdbj8fj8Xio+AF3onEk
+  </data>
+ </layer>
+ <layer name="Mines" width="78" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAD8GDMwAAE=
+  </data>
+ </layer>
+ <layer name="Trees" width="78" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAD8GDMwAAE=
+  </data>
+ </layer>
+ <objectgroup name="objects" width="78" height="42" visible="0"/>
+ <layer name="block" width="78" height="42" opacity="0.01">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMA6DxiOsfZj2Ogr2kqqqqqqqqqqqqqqqq+uQAetIzLQ==
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<items>
+	<item type = "consumable" subtype = "drink" id = "0" name = "Small Heath Potion" clickable = "true">
+		<general type = "health" value = "10"/>
+	</item>
+	
+	<item type = "consumable" subtype = "drink" id = "1" name = "Medium Heath Potion" clickable = "true">
+		<general type = "health" value = "25"/>
+	</item>
+	
+	<item type = "consumable" subtype = "drink" id = "2" name = "Large Heath Potion" clickable = "true">
+		<general type = "health" value = "50"/>
+	</item>
+	
+	<item type = "consumable" subtype = "drink" id = "3" name = "Large Mana Potion" clickable = "true">
+		<general type = "mana" value = "50"/>
+	</item>
+	
+	<item type = "consumable" subtype = "food" id = "4" name = "Bread" clickable = "true">
+		<general type = "health" value = "15"/>
+	</item>
+	
+	<item type = "weapon" subtype = "sword" id = "5" name = "Short Sword" clickable = "true">
+		<general damage = "5"/>
+	</item>
+	
+	<item type = "armor" slot = "head" id = "6" name = "Iron Helm" clickable = "true">
+		<general armor = "5"/>
+	</item>
+	
+	<item type = "armor" slot = "chest" id = "7" name = "Iron Platebody" clickable = "true">
+		<general armor = "5"/>
+	</item>
+	
+	<item type = "armor" slot = "legs" id = "8" name = "Iron Platelegs" clickable = "true">
+		<general armor = "5"/>
+	</item>
+	
+	<item type = "armor" slot = "shield" id = "9" name = "Iron Kiteshield" clickable = "true">
+		<general armor = "5"/>
+	</item>
+	
+	<item type = "skill" id = "10" name = "Iron Ore" clickable = "false">
+		<general type = "ore" experience = "50"/>
+	</item>
+	
+	<item type = "skill" id = "11" name = "Logs" clickable = "false">
+		<general type = "log" experience = "50"/>
+	</item>
+</items>

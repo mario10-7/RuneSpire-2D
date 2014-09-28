@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<quests>
+	<quest id = "0" name = "Intro to mining">
+		<objective id ="0" type = "collect" item = "10" amount = "5">Collect 5 iron ore</objective>
+		<objective id = "1" type = "return" npc = "0">Return to Bob</objective>
+		<reward id = "0" type = "experience" skill = "mining" amount = "1000"/>
+		<reward id = "1" type = "item" item = "5" amount = "1"/>
+	</quest>
+</quests>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="78" height="42" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="height" value="42"/>
+  <property name="width" value="78"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="512" height="160"/>
+  <tile id="53">
+   <properties>
+    <property name="item" value="10"/>
+    <property name="name" value="chest"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="item" value="11"/>
+    <property name="name" value="Oak Tree"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="78" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKH7/qXXYyi4aqqqqqqqqqqqqqqqqvrkAeURDM0=
+  </data>
+ </layer>
+ <layer name="Collision" width="78" height="42">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEJAAAIA0Hnc/+BXEEEEeGuTPlFIgAAALiWzQ3gM782o1ufVjt0BQAAAAAAAD4qjR8BvQ==
+  </data>
+ </layer>
+ <layer name="Foreground" width="78" height="42">
+  <data encoding="base64" compression="zlib">
+   eJzt0MsJgEAQREF/EagRqPnH6F5MoFF2hCro6zC8YQAAAB5T2xxu6fBvFWvbFm7v8G8VumV0y1TqNr5870vVuv2lXaVuf6JbRreMbhndMrpldMvoltEto1tGt4xumaPtDHd1+BcAAACAd92R3BaU
+  </data>
+ </layer>
+ <layer name="Mines" width="78" height="42">
+  <data encoding="base64" compression="zlib">
+   eJzt1KENAAAIA0GmYv/RUHiCISR3svJFIwAAALiWww3gM7+2o9ucVgAAAAAAAAC0AvLdAQ8=
+  </data>
+ </layer>
+ <layer name="Trees" width="78" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztzrcNgEAABEFSTAOYBjANYPqvi2uBhNdLM9Lm2zQAAAAA8L82dalPQ+GXmoxpSnNaCr/UZE1b2tNR+KUmZ7rSnZ7CLwAAAAAAAABfvPpQAik=
+  </data>
+ </layer>
+ <objectgroup name="objects" width="78" height="42"/>
+</map>

@@ -1,0 +1,6 @@
+[PASSWORD]: ChanneLlink1583
+[EMAIL_ADDRESS]: paramvirphagura339@gmail.com
+[FIRST_NAME]: Paramvir
+[LAST_NAME]: Phagura
+[AGE]: 15
+[SEX]: M

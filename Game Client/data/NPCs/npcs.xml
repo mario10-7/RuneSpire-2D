@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<npcs>
+	<npc id = "0" name = "Bob">
+		<components>
+			<position x = "20" y = "15"/>
+			<sprite name = "0"/>
+		</components>
+		
+		<dialogue id = "start">
+			<text>Welcome player!</text>
+			<option action = "dialogue1">What is this place?</option>
+			<option action = "dialogue2">Why am I here?</option>
+			<option action = "dialogue3">Who are you?</option>
+			<option action = "dialogue5">Can I have a quest?</option>
+			<option action = "exit" returnquest = "0">I have the iron ore!</option>
+		</dialogue>
+		<dialogue id = "dialogue1">
+			<text>This is the wonderful world of RSCL of course!</text>
+			<option action = "dialogue4">What the hell is that?</option>
+			<option action = "exit">Okay, goodbye!</option>
+		</dialogue>
+		<dialogue id = "dialogue2">
+			<text>I'm not sure! Why are you here?</text>
+			<option action = "exit">Ugh, nevermind...</option>
+		</dialogue>
+		<dialogue id = "dialogue3">
+			<text>My name is Bob! Not much else to say.</text>
+			<option action = "exit">Okay, goodbye Bob!</option>
+		</dialogue>
+		<dialogue id = "dialogue4">
+			<text>Look around silly, it's the world you see you see.</text>
+			<option action = "exit">You know, you're a prick.</option>
+		</dialogue>
+		<dialogue id = "dialogue5">
+			<text>Okay, bring me 5 iron ores please</text>
+			<option action = "exit" quest = "0">Okay!</option>
+		</dialogue>
+	</npc>
+</npcs>

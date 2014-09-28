@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<player>
+	<inventory>
+		<item slot = "0" id = "1"/>
+		<item slot = "1" id = "null"/>
+		<item slot = "2" id = "null"/>
+		<item slot = "3" id = "null"/>
+		<item slot = "4" id = "null"/>
+		<item slot = "5" id = "null"/>
+		<item slot = "6" id = "null"/>
+		<item slot = "7" id = "null"/>
+		<item slot = "8" id = "null"/>
+		<item slot = "9" id = "null"/>
+		<item slot = "10" id = "null"/>
+		<item slot = "11" id = "null"/>
+		<item slot = "12" id = "null"/>
+		<item slot = "13" id = "null"/>
+		<item slot = "14" id = "null"/>
+		<item slot = "15" id = "null"/>
+		<item slot = "16" id = "null"/>
+		<item slot = "17" id = "null"/>
+		<item slot = "18" id = "null"/>
+		<item slot = "19" id = "null"/>
+		<item slot = "20" id = "null"/>
+		<item slot = "21" id = "null"/>
+		<item slot = "22" id = "null"/>
+		<item slot = "23" id = "null"/>
+		<item slot = "24" id = "null"/>
+		<item slot = "25" id = "null"/>
+		<item slot = "26" id = "null"/>
+		<item slot = "27" id = "null"/>
+	</inventory>
+	<equipment>
+		<item slot = "head" id = "null"/>
+		<item slot = "chest" id = "null"/>
+		<item slot = "shield" id = "null"/>
+		<item slot = "weapon" id = "null"/>
+		<item slot = "legs" id = "null"/>
+	</equipment>
+	<position x = "21" y = "21"/>
+	<quests>
+		<quest id = "0" completed = "false" active = "false"/>
+	</quests>
+</player>
